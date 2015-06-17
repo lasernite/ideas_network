@@ -1,3 +1,123 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+// Ideas Fade In
+
+.ideas{
+	font-size: 30vmin;
+
+	animation: fadein 8s;
+	-webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 8s; /* Firefox < 16 */
+    -ms-animation: fadein 8s; /* Internet Explorer */
+    -o-animation: fadein 8s; /* Opera < 12.1 */
+}
+
+@keyframes fadein {
+    from { opacity: 0; font-size: 300vmin; }
+    to   { opacity: 1; font-size: 30vmin; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; font-size: 300vmin; }
+    to   { opacity: 1; font-size: 30vmin; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; font-size: 300vmin; }
+    to   { opacity: 1; font-size: 30vmin; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; font-size: 300vmin; }
+    to   { opacity: 1; font-size: 30vmin; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; font-size: 300vmin; }
+    to   { opacity: 1; font-size: 30vmin; }
+}
+
+
+// We transform drop in
+
+.we_transform {
+	font-size: 12vmin;
+
+	margin-top: 30vh;
+
+	animation: dropin 4s;
+	-webkit-animation: dropin 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: dropin 4s; /* Firefox < 16 */
+    -ms-animation: dropin 4s; /* Internet Explorer */
+    -o-animation: dropin 4s; /* Opera < 12.1 */
+}
+
+/* Firefox < 16 */
+@-moz-keyframes dropin {
+    from { margin-top: -60vh; }
+    to   { margin-top: 30vh; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes dropin {
+    from { margin-top: -60vh; }
+    to   { margin-top: 30vh; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes dropin {
+    from { margin-top: -60vh; }
+    to   { margin-top: 30vh; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes dropin {
+   	from { margin-top: -60vh; }
+    to   { margin-top: 30vh; }
+}
+
+
+
+// Into reality drop in
+
+.into_reality {
+	font-size: 12vmin;
+
+	margin-top: 30vh;
+	animation: dropin 4s;
+	-webkit-animation: dropin 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: dropin 4s; /* Firefox < 16 */
+    -ms-animation: dropin 4s; /* Internet Explorer */
+    -o-animation: dropin 4s; /* Opera < 12.1 */
+}
+
+/* Firefox < 16 */
+@-moz-keyframes dropin {
+    from { margin-top: -60vh; }
+    to   { margin-top: 30vh; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes dropin {
+    from { margin-top: -60vh; }
+    to   { margin-top: 30vh; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes dropin {
+    from { margin-top: -60vh; }
+    to   { margin-top: 30vh; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes dropin {
+   	from { margin-top: -60vh; }
+    to   { margin-top: 30vh; }
+}
