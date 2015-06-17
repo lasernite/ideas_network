@@ -10,11 +10,11 @@
 	position: absolute;
 	width: 100%;
 	font-family: Montserrat;
-	animation: fadein 4s forwards;
-	-webkit-animation: fadein 4s forwards; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 4s forwards; /* Firefox < 16 */
-    -ms-animation: fadein 4s forwards; /* Internet Explorer */
-    -o-animation: fadein 4s forwards; /* Opera < 12.1 */
+	animation: fadein 3s cubic-bezier(.41,.56,.6,1) forwards;
+	-webkit-animation: fadein 3s cubic-bezier(.41,.56,.6,1) forwards; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 3s cubic-bezier(.41,.56,.6,1) forwards; /* Firefox < 16 */
+    -ms-animation: fadein 3s cubic-bezier(.41,.56,.6,1) forwards; /* Internet Explorer */
+    -o-animation: fadein 3s cubic-bezier(.41,.56,.6,1) forwards; /* Opera < 12.1 */
 }
 
 @keyframes fadein {
@@ -58,11 +58,11 @@
 
 	margin-top: -15vmin;
 
-	animation: wedropin 2s 4s forwards;
-	-webkit-animation: wedropin 2s 4s forwards; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: wedropin 2s 4s forwards; /* Firefox < 16 */
-    -ms-animation: wedropin 2s 4s forwards; /* Internet Explorer */
-    -o-animation: wedropin 2s 4s forwards; /* Opera < 12.1 */
+	animation: wedropin 2s 3s forwards;
+	-webkit-animation: wedropin 2s 3s forwards; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: wedropin 2s 3s forwards; /* Firefox < 16 */
+    -ms-animation: wedropin 2s 3s forwards; /* Internet Explorer */
+    -o-animation: wedropin 2s 3s forwards; /* Opera < 12.1 */
 }
 
 /* Firefox < 16 */
@@ -101,11 +101,11 @@
 	width: 100%;
 
 	margin-top: -15vmin;
-	animation: idropin 2s 4s forwards;
-	-webkit-animation: idropin 2s 4s forwards; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: idropin 2s 4s forwards; /* Firefox < 16 */
-    -ms-animation: idropin 2s 4s forwards; /* Internet Explorer */
-    -o-animation: idropin 2s 4s forwards; /* Opera < 12.1 */
+	animation: idropin 2s 3s forwards;
+	-webkit-animation: idropin 2s 3s forwards; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: idropin 2s 3s forwards; /* Firefox < 16 */
+    -ms-animation: idropin 2s 3s forwards; /* Internet Explorer */
+    -o-animation: idropin 2s 3s forwards; /* Opera < 12.1 */
 }
 
 /* Firefox < 16 */
