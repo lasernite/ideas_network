@@ -6,42 +6,44 @@
 // Ideas Fade In
 
 .ideas{
-	font-size: 30vmin;
-
-	animation: fadein 8s;
-	-webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 8s; /* Firefox < 16 */
-    -ms-animation: fadein 8s; /* Internet Explorer */
-    -o-animation: fadein 8s; /* Opera < 12.1 */
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	font-family: Montserrat;
+	animation: fadein 4s forwards;
+	-webkit-animation: fadein 4s forwards; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 4s forwards; /* Firefox < 16 */
+    -ms-animation: fadein 4s forwards; /* Internet Explorer */
+    -o-animation: fadein 4s forwards; /* Opera < 12.1 */
 }
 
 @keyframes fadein {
-    from { opacity: 0; font-size: 300vmin; }
-    to   { opacity: 1; font-size: 30vmin; }
+    from { opacity: 0; font-size: 300vmin; margin-top: 0vmin; }
+    to   { opacity: 1; font-size: 32vmin; margin-top: 24vmin;}
 }
 
 /* Firefox < 16 */
 @-moz-keyframes fadein {
-    from { opacity: 0; font-size: 300vmin; }
-    to   { opacity: 1; font-size: 30vmin; }
+    from { opacity: 0; font-size: 300vmin; margin-top: 0vmin; }
+    to   { opacity: 1; font-size: 32vmin; margin-top: 24vmin; }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
-    from { opacity: 0; font-size: 300vmin; }
-    to   { opacity: 1; font-size: 30vmin; }
+    from { opacity: 0; font-size: 300vmin; margin-top: 0vmin; }
+    to   { opacity: 1; font-size: 32vmin; margin-top: 24vmin; }
 }
 
 /* Internet Explorer */
 @-ms-keyframes fadein {
-    from { opacity: 0; font-size: 300vmin; }
-    to   { opacity: 1; font-size: 30vmin; }
+    from { opacity: 0; font-size: 300vmin; margin-top: 0vmin; }
+    to   { opacity: 1; font-size: 32vmin; margin-top: 24vmin;}
 }
 
 /* Opera < 12.1 */
 @-o-keyframes fadein {
-    from { opacity: 0; font-size: 300vmin; }
-    to   { opacity: 1; font-size: 30vmin; }
+    from { opacity: 0; font-size: 300vmin; margin-top: 0vmin; }
+    to   { opacity: 1; font-size: 32vmin; margin-top: 24vmin; }
 }
 
 
@@ -49,38 +51,42 @@
 
 .we_transform {
 	font-size: 12vmin;
+	font-family: Montserrat;
+	text-align: center;
+	position: absolute;
+	width: 100%;
 
-	margin-top: 30vh;
+	margin-top: -15vmin;
 
-	animation: dropin 4s;
-	-webkit-animation: dropin 4s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: dropin 4s; /* Firefox < 16 */
-    -ms-animation: dropin 4s; /* Internet Explorer */
-    -o-animation: dropin 4s; /* Opera < 12.1 */
+	animation: wedropin 2s 6s forwards;
+	-webkit-animation: wedropin 2s 6s forwards; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: wedropin 2s 6s forwards; /* Firefox < 16 */
+    -ms-animation: wedropin 2s 6s forwards; /* Internet Explorer */
+    -o-animation: wedropin 2s 6s forwards; /* Opera < 12.1 */
 }
 
 /* Firefox < 16 */
-@-moz-keyframes dropin {
-    from { margin-top: -60vh; }
-    to   { margin-top: 30vh; }
+@-moz-keyframes wedropin {
+    from { margin-top: -15vmin; }
+    to   { margin-top: 11.5vmin; }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes dropin {
-    from { margin-top: -60vh; }
-    to   { margin-top: 30vh; }
+@-webkit-keyframes wedropin {
+    from { margin-top: -15vmin; }
+    to   { margin-top: 11.5vmin; }
 }
 
 /* Internet Explorer */
-@-ms-keyframes dropin {
-    from { margin-top: -60vh; }
-    to   { margin-top: 30vh; }
+@-ms-keyframes wedropin {
+    from { margin-top: -15vmin; }
+    to   { margin-top: 11.5vmin; }
 }
 
 /* Opera < 12.1 */
-@-o-keyframes dropin {
-   	from { margin-top: -60vh; }
-    to   { margin-top: 30vh; }
+@-o-keyframes wedropin {
+   	from { margin-top: -15vmin; }
+    to   { margin-top: 11.5vmin; }
 }
 
 
@@ -89,35 +95,39 @@
 
 .into_reality {
 	font-size: 12vmin;
+	font-family: Montserrat;
+	text-align: center;
+	position: absolute;
+	width: 100%;
 
-	margin-top: 30vh;
-	animation: dropin 4s;
-	-webkit-animation: dropin 4s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: dropin 4s; /* Firefox < 16 */
-    -ms-animation: dropin 4s; /* Internet Explorer */
-    -o-animation: dropin 4s; /* Opera < 12.1 */
+	margin-top: -15vmin;
+	animation: idropin 2s 4s forwards;
+	-webkit-animation: idropin 2s 4s forwards; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: idropin 2s 4s forwards; /* Firefox < 16 */
+    -ms-animation: idropin 2s 4s forwards; /* Internet Explorer */
+    -o-animation: idropin 2s 4s forwards; /* Opera < 12.1 */
 }
 
 /* Firefox < 16 */
-@-moz-keyframes dropin {
-    from { margin-top: -60vh; }
-    to   { margin-top: 30vh; }
+@-moz-keyframes idropin {
+ 5  from { margin-top: -15vmin; }
+    to   { margin-top: 60vmin; }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes dropin {
-    from { margin-top: -60vh; }
-    to   { margin-top: 30vh; }
+@-webkit-keyframes idropin {
+ 5  from { margin-top: -15vmin; }
+    to   { margin-top: 60vmin; }
 }
 
 /* Internet Explorer */
-@-ms-keyframes dropin {
-    from { margin-top: -60vh; }
-    to   { margin-top: 30vh; }
+@-ms-keyframes idropin {
+ 5  from { margin-top: -15vmin; }
+    to   { margin-top: 60vmin; }
 }
 
 /* Opera < 12.1 */
-@-o-keyframes dropin {
-   	from { margin-top: -60vh; }
-    to   { margin-top: 30vh; }
+@-o-keyframes idropin {
+ 5 	from { margin-top: -15vmin; }
+    to   { margin-top: 60vmin; }
 }
