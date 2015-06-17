@@ -141,11 +141,11 @@
 	margin-top: 85vmin;
 	width: 100%;
 	text-align: center;
-	animation: letsfadein 3s 6s forwards;
-	-webkit-animation: letsfadein 3s 6s forwards; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: letsfadein 3s 6s forwards; /* Firefox < 16 */
-    -ms-animation: letsfadein 3s 6s forwards; /* Internet Explorer */
-    -o-animation: letsfadein 3s 6s forwards; /* Opera < 12.1 */
+	animation: letsfadein 2s 6s linear forwards;
+	-webkit-animation: letsfadein 2s 6s linear forwards; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: letsfadein 2s 6s linear forwards; /* Firefox < 16 */
+    -ms-animation: letsfadein 2s 6s linear forwards; /* Internet Explorer */
+    -o-animation: letsfadein 2s 6s linear forwards; /* Opera < 12.1 */
 }
 
 @keyframes letsfadein {
