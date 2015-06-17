@@ -18,31 +18,31 @@
 }
 
 @keyframes fadein {
-    from { opacity: 0; font-size: 300vmin; margin-top: 0vmin; }
+    from { opacity: 0; font-size: 0vmin; margin-top: 0vmin; }
     to   { opacity: 1; font-size: 32vmin; margin-top: 24vmin;}
 }
 
 /* Firefox < 16 */
 @-moz-keyframes fadein {
-    from { opacity: 0; font-size: 300vmin; margin-top: 0vmin; }
+    from { opacity: 0; font-size: 0vmin; margin-top: 0vmin; }
     to   { opacity: 1; font-size: 32vmin; margin-top: 24vmin; }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
-    from { opacity: 0; font-size: 300vmin; margin-top: 0vmin; }
+    from { opacity: 0; font-size: 0vmin; margin-top: 0vmin; }
     to   { opacity: 1; font-size: 32vmin; margin-top: 24vmin; }
 }
 
 /* Internet Explorer */
 @-ms-keyframes fadein {
-    from { opacity: 0; font-size: 300vmin; margin-top: 0vmin; }
+    from { opacity: 0; font-size: 0vmin; margin-top: 0vmin; }
     to   { opacity: 1; font-size: 32vmin; margin-top: 24vmin;}
 }
 
 /* Opera < 12.1 */
 @-o-keyframes fadein {
-    from { opacity: 0; font-size: 300vmin; margin-top: 0vmin; }
+    from { opacity: 0; font-size: 0vmin; margin-top: 0vmin; }
     to   { opacity: 1; font-size: 32vmin; margin-top: 24vmin; }
 }
 
@@ -58,11 +58,11 @@
 
 	margin-top: -15vmin;
 
-	animation: wedropin 2s 6s forwards;
-	-webkit-animation: wedropin 2s 6s forwards; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: wedropin 2s 6s forwards; /* Firefox < 16 */
-    -ms-animation: wedropin 2s 6s forwards; /* Internet Explorer */
-    -o-animation: wedropin 2s 6s forwards; /* Opera < 12.1 */
+	animation: wedropin 2s 4s forwards;
+	-webkit-animation: wedropin 2s 4s forwards; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: wedropin 2s 4s forwards; /* Firefox < 16 */
+    -ms-animation: wedropin 2s 4s forwards; /* Internet Explorer */
+    -o-animation: wedropin 2s 4s forwards; /* Opera < 12.1 */
 }
 
 /* Firefox < 16 */
