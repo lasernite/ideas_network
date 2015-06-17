@@ -131,3 +131,34 @@
  5 	from { margin-top: -15vmin; }
     to   { margin-top: 60vmin; }
 }
+
+
+// Let's do it fade in
+
+.lets_do_it {
+	position: absolute;
+	margin-top: 85vmin;
+	width: 100%;
+	text-align: center;
+}
+
+.lets_do_it_button {
+	border: 0.5vmin solid;
+	border-color: black;
+	outline: none;
+	background-color: white;
+	border-radius: 5px;
+	font-size: 5vmin;
+	font-family: Montserrat;
+}
+
+.lets_do_it_button:active, .lets_do_it_button:hover {
+	background-color: black;
+	color: white;
+}
+
+
+
+
+
+
