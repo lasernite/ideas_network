@@ -3,8 +3,8 @@
 	<!-- Animate Network Lines -->
 	<animate attributeType="XML"
                  attributeName="stroke-dashoffset"
-                 to="1000"
-                 dur="10s"
+                 to="900"
+                 dur="8s"
                  fill="freeze"/>
     <!-- Animate Network Color -->
     <animate attributeType="XML" 
