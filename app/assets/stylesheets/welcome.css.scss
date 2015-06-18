@@ -4,8 +4,8 @@
 
 // Base 64 encoded the SVG network image with added effects to inline code
 
-.network_background {    
-    background: url("ideas_network_good.svg") no-repeat center center fixed;
+.network_background {   
+    background: url("ideas_network_good_color.svg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -64,6 +64,7 @@
 .ideas{
 	text-shadow: 5px 5px 2px #fff, -5px 5px 2px #fff, 5px -5px 2px #fff, -5px -5px 2px #fff, 5px 0px 2px #fff, -5px 0px 2px #fff, 0px -5px 2px #fff, 0px 5px 2px #fff;
 	text-align: center;
+	margin-top: 24vmin;
 	position: absolute;
 	width: 100%;
 	font-family: Montserrat;
@@ -75,32 +76,32 @@
 }
 
 @keyframes fadein {
-    from { opacity: 0; font-size: 0vmin; margin-top: 0vmin; }
-    to   { opacity: 1; font-size: 32vmin; margin-top: 24vmin;}
+    from { opacity: 0; font-size: 0vmin; }
+    to   { opacity: 1; font-size: 32vmin; }
 }
 
 /* Firefox < 16 */
 @-moz-keyframes fadein {
-    from { opacity: 0; font-size: 0vmin; margin-top: 0vmin; }
-    to   { opacity: 1; font-size: 32vmin; margin-top: 24vmin; }
+    from { opacity: 0; font-size: 0vmin; }
+    to   { opacity: 1; font-size: 32vmin;  }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
-    from { opacity: 0; font-size: 0vmin; margin-top: 0vmin; }
-    to   { opacity: 1; font-size: 32vmin; margin-top: 24vmin; }
+    from { opacity: 0; font-size: 0vmin; }
+    to   { opacity: 1; font-size: 32vmin;  }
 }
 
 /* Internet Explorer */
 @-ms-keyframes fadein {
-    from { opacity: 0; font-size: 0vmin; margin-top: 0vmin; }
-    to   { opacity: 1; font-size: 32vmin; margin-top: 24vmin;}
+    from { opacity: 0; font-size: 0vmin; }
+    to   { opacity: 1; font-size: 32vmin; }
 }
 
 /* Opera < 12.1 */
 @-o-keyframes fadein {
-    from { opacity: 0; font-size: 0vmin; margin-top: 0vmin; }
-    to   { opacity: 1; font-size: 32vmin; margin-top: 24vmin; }
+    from { opacity: 0; font-size: 0vmin; }
+    to   { opacity: 1; font-size: 32vmin;  }
 }
 
 
