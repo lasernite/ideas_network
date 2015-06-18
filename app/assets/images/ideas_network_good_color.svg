@@ -1,30 +1,25 @@
-<svg style="stroke-dasharray:450px; stroke-dashoffset: 450px;" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg style="stroke-dasharray:350px; stroke-dashoffset: 350px;" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1280 800" enable-background="new 0 0 1280 800" xml:space="preserve">
 	<!-- Animate Network Lines -->
-	<animate attributeType="XML"
-                 attributeName="stroke-dashoffset"
-                 to="900"
+	<animate  attributeName="stroke-dashoffset"
+                 to="700"
                  dur="8s"
                  fill="freeze"/>
     <!-- Animate Network Color -->
-    <animate attributeType="XML" 
-    			attributeName="fill"
+    <animate  attributeName="fill"
     			values="#0008ff;#dc00ff;#ff0000;#F0C813;#00ff00;#10F4F0;#0008ff;"
     			dur="7s" 
     			fill="freeze"/>
-    <animate attributeType="XML"
-    			attributeName="stroke"
+    <animate  attributeName="stroke"
     			values="#0008ff;#dc00ff;#ff0000;#F0C813;#00ff00;#10F4F0;#0008ff;"
     			dur="7s"
     			fill="freeze" />
-    <animate attributeType="XML" 
-    			attributeName="fill"
+    <animate  attributeName="fill"
     			from="#0008ff" to="#000000"
     			begin="7s"
     			dur="1s" 
     			fill="freeze"/>
-    <animate attributeType="XML"
-    			attributeName="stroke"
+    <animate  attributeName="stroke"
     			from="#0008ff" to="#000000"
     			begin="7s"
     			dur="1s"
