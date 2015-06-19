@@ -2,7 +2,17 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-// Base 64 encoded the SVG network image with added effects to inline code
+.next {
+    margin-top: 2000px;
+    position: absolute;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+// Full page network background with animation built into the SVG
 
 .network_background {   
     background: url("ideas_network_good_color.svg") no-repeat center center fixed;
@@ -14,50 +24,6 @@
     width: 100vw;
     position: absolute;
 }
-
-
-/*
-.svg_network {
-    height: 100vh;
-    min-width: 100vw;
-}
-*/
-
-.svg_network {
-	stroke-dasharray:150px;
-}
-
-.svg path {
-	background-color: red;
-}
-
-.next {
-    margin-top: 2000px;
-    position: absolute;
-}
-
-/*
-.network_div {
-  z-index: -10;
-  position: fixed; 
-  top: -50%; 
-  left: -50%; 
-  width: 200%; 
-  height: 200%;
-}
-
-.network_div svg {
-  z-index: -10;
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
-  margin: auto; 
-  min-width: 50%;
-  min-height: 50%;
-}
-*/
 
 // Ideas Fade In
 
