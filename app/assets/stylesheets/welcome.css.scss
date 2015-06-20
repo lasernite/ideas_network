@@ -23,6 +23,26 @@ body {
 	width: 100%;
 }
 
+.logo {
+	height: 4.2vh;
+	border-radius: 0.7vh;
+	margin-top: 0.4vh;
+	margin-left: 0.4vh;
+	float:left;
+}
+
+.nav_box {
+	margin-top: 1vh;
+}
+
+.nav_what, .nav_who, .nav_lets  {
+	font-family: Montserrat;
+	color: #000;
+	float:left;
+	font-size: 3vh;
+	margin-left: 16.6vw;
+}
+
 // Full page network background with animation built into the SVG
 
 .network_background {   
@@ -228,6 +248,24 @@ body {
 	background-color: black;
 	color: white;
 }
+
+
+
+// Mobile Optimization
+
+@media screen and (max-width: 1023px) {
+
+	// Top navigation bar
+	.nav_what, .nav_who, .nav_lets  {
+		font-family: Montserrat;
+		color: #000;
+		float:left;
+		font-size: 3vh;
+		margin-left: 9vw;
+	}
+
+}
+
 
 
 
