@@ -44,9 +44,9 @@ body {
 	margin-left: 16.6vw;
 }
 
-.nav_what:hover, .nav_who:hover, .nav_lets:hover {
-	color: #0505FF;
-}
+// .nav_what:hover, .nav_who:hover, .nav_lets:hover {
+//	color: #0505FF;
+// }
 
 .nav_what:active, .nav_who:hover, .nav_lets:hover {
 	color: #0505FF;
@@ -259,7 +259,7 @@ body {
 
 
 
-// Full page what we do 2nd section
+// Full page "what we do" 2nd section
 
 .what_anchor {
 	margin-top: 95vh;
@@ -268,8 +268,44 @@ body {
 .what_we_do {   
     background-color: #0505FF;
     margin-top: 100vh;
-    height: 100vh;
+    height: 95vh;
     width: 100vw;
+}
+
+.website_idea {
+	color: #fff;
+	font-family: Montserrat;
+	font-size: 7vh;
+}
+
+.make_happen {
+	color: #fff;
+	font-family: Montserrat;
+	font-size: 7vh;
+}
+
+// Full page "who does it" 3rd section
+
+.who_anchor {
+	position: absolute;
+	margin-top: -5vh;
+}
+
+.who_does_it {   
+    background-color: rgb(255,0,0);
+    height: 95vh;
+    width: 100vw;
+}
+
+// Full page "let's do it"
+
+.do_anchor {
+}
+
+.lets_do_it {
+	background-color: rgb(0,255,0);
+	height: 95vh;
+	width: 100vw;
 }
 
 
