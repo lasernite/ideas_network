@@ -15,6 +15,7 @@ body {
 // Top navigation bar
 
 .top_nav {
+	z-index: 10;
 	background-color: #fff;
 	box-shadow: 0vh 0.2vh 0.5vh #000;
 	position: fixed;
@@ -27,7 +28,7 @@ body {
 	height: 4.2vh;
 	border-radius: 0.7vh;
 	margin-top: 0.4vh;
-	margin-left: 0.4vh;
+	margin-left: 0.5vh;
 	float:left;
 }
 
@@ -43,6 +44,13 @@ body {
 	margin-left: 16.6vw;
 }
 
+.nav_what:hover, .nav_who:hover, .nav_lets:hover {
+	color: #0505FF;
+}
+
+.nav_what:active, .nav_who:hover, .nav_lets:hover {
+	color: #0505FF;
+}
 // Full page network background with animation built into the SVG
 
 .network_background {   
@@ -192,7 +200,7 @@ body {
 
 // Let's do it fade in
 
-.lets_do_it {
+.lets_do_it_home {
 	opacity: 0;
 	position: absolute;
 	margin-top: 82vmin;
@@ -247,6 +255,21 @@ body {
 .lets_do_it_button:active, .lets_do_it_button:hover {
 	background-color: black;
 	color: white;
+}
+
+
+
+// Full page what we do 2nd section
+
+.what_anchor {
+	margin-top: 95vh;
+}
+
+.what_we_do {   
+    background-color: #0505FF;
+    margin-top: 100vh;
+    height: 100vh;
+    width: 100vw;
 }
 
 
