@@ -12,6 +12,15 @@ body {
 	margin: 0;
 }
 
+// Top navigation bar
+
+.top_nav {
+	background-color: grey;
+	// position: fixed;
+	position: fixed;
+	margin-top: -50px;
+}
+
 // Full page network background with animation built into the SVG
 
 .network_background {   
