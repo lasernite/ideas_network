@@ -7,7 +7,7 @@ window.onload = ->
   s = skrollr.init()
   return
 
-# Scroll to anchors
+# Scroll smoothly to anchors
 $ ->
   $('a[href*=#]:not([href=#])').click ->
     if location.pathname.replace(/^\//, '') == @pathname.replace(/^\//, '') and location.hostname == @hostname
@@ -25,6 +25,6 @@ $ ->
 $(document).ready ->
   if $( window ).width() < 1024
     $('.nav_what').html 'what'
-    $('.nav_who').html 'who'
+    $('.nav_who').html 'how'
     $('.nav_lets').html 'do'
 return
