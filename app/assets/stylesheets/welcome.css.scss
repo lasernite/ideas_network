@@ -244,20 +244,20 @@ body {
 
 .lets_do_it_button {
 	border: 0.5vmin solid;
-	border-color: black;
+	border-color: #000;
 	outline: none;
-	background-color: white;
+	background-color: #fff;
 	border-radius: 5px;
 	font-size: 5vmin;
 	font-family: Montserrat;
-	color: black;
+	color: #000;
 	text-decoration: none;
 	padding: 0.7vh 0.7vw 0.7vh 0.7vw;
 }
 
 .lets_do_it_button:active, .lets_do_it_button:hover {
-	background-color: black;
-	color: white;
+	background-color: #000;
+	color: #fff;
 }
 
 
@@ -273,18 +273,59 @@ body {
     margin-top: 100vh;
     height: 95vh;
     width: 100vw;
+    overflow: hidden;
 }
 
 .website_idea {
 	color: #fff;
 	font-family: Montserrat;
 	font-size: 7vh;
+	text-align: center;
+	padding-top: 10vh;
 }
 
 .make_happen {
 	color: #fff;
 	font-family: Montserrat;
 	font-size: 7vh;
+	text-align: center;
+	margin-top: 5vh;
+}
+
+.blissfully {
+	color: #fff;
+	font-family: Montserrat;
+	font-size: 7vh;
+	text-align: center;
+	margin-top: 5vh;
+}
+
+.get_started_div {
+	opacity: 0;
+	margin-top: 15vh;
+	width: 100%;
+	text-align: center;
+}
+
+.get_started {
+	color: #fff;
+	font-family: Montserrat;
+	font-size: 7vh;
+	text-align: center;
+	border: 0.5vmin solid;
+	border-color: #fff;
+	outline: none;
+	background-color: transparent;
+	border-radius: 5px;
+	font-size: 5vmin;
+	font-family: Montserrat;
+	text-decoration: none;
+	padding: 0.7vh 0.7vw 0.7vh 0.7vw;
+}
+
+.get_started:hover {
+	background-color: #fff;
+	color: rgb(4,4,248);
 }
 
 // Full page "who does it" 3rd section
