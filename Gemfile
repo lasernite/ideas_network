@@ -29,6 +29,12 @@ gem 'spring',        group: :development
 # Parallax scroller Skrollr
 gem 'skrollr-rails'
 
+# Wow.js for animation when content scrolled into view
+gem 'wow-rails'
+
+# Animate CSS (neccesary for wow.js)
+gem "animate-rails"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
