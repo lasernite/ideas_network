@@ -129,28 +129,33 @@ body {
     -o-animation: wedropin 2s 3s forwards; /* Opera < 12.1 */
 }
 
+@keyframes wedropin {
+	from { transform: translateY(-15vmin); }
+    to   { transform: translateY(26.5vmin); }
+}
+
 /* Firefox < 16 */
 @-moz-keyframes wedropin {
-    from { margin-top: -15vmin; }
-    to   { margin-top: 11.5vmin; }
+    from { -moz-transform: translateY(-15vmin); }
+    to   { -moz-transform: translateY(26.5vmin); }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes wedropin {
-    from { margin-top: -15vmin; }
-    to   { margin-top: 11.5vmin; }
+    from { -webkit-transform: translateY(-15vmin); }
+    to   { -webkit-transform: translateY(26.5vmin); }
 }
 
 /* Internet Explorer */
 @-ms-keyframes wedropin {
-    from { margin-top: -15vmin; }
-    to   { margin-top: 11.5vmin; }
+    from { -ms-transform: translateY(-15vmin); }
+    to   { -ms-transform: translateY(26.5vmin); }
 }
 
 /* Opera < 12.1 */
 @-o-keyframes wedropin {
-   	from { margin-top: -15vmin; }
-    to   { margin-top: 11.5vmin; }
+   	from { -o-transform: translateY(-15vmin); }
+    to   { -o-transform: translateY(26.5vmin); }
 }
 
 
@@ -173,28 +178,33 @@ body {
     -o-animation: idropin 2s 3s forwards; /* Opera < 12.1 */
 }
 
+@keyframes idropin {
+	from { transform: translateY(-15vmin); }
+    to   { transform: translateY(75vmin); }
+}
+
 /* Firefox < 16 */
 @-moz-keyframes idropin {
- 5  from { margin-top: -15vmin; }
-    to   { margin-top: 60vmin; }
+    from { -moz-transform: translateY(-15vmin); }
+    to   { -moz-transform: translateY(75vmin); }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes idropin {
- 5  from { margin-top: -15vmin; }
-    to   { margin-top: 60vmin; }
+    from { -webkit-transform: translateY(-15vmin); }
+    to   { -webkit-transform: translateY(75vmin); }
 }
 
 /* Internet Explorer */
 @-ms-keyframes idropin {
- 5  from { margin-top: -15vmin; }
-    to   { margin-top: 60vmin; }
+    from { -ms-transform: translateY(-15vmin); }
+    to   { -ms-transform: translateY(75vmin); }
 }
 
 /* Opera < 12.1 */
 @-o-keyframes idropin {
- 5 	from { margin-top: -15vmin; }
-    to   { margin-top: 60vmin; }
+    from { -o-transform: translateY(-15vmin); }
+    to   { -o-transform: translateY(75vmin); }
 }
 
 
@@ -339,25 +349,6 @@ body {
     background-color: rgb(248,4,4);
     height: 95vh;
     width: 100vw;
-}
-
-.svg_map {
-	stroke-dashrray: 20;
-	animation: dash 10s linear;
-	fill: white;
-}
-
-.svg_map_stroke {
-	stroke-dashrray: 20;
-	animation: dash 10s linear;
-    animation-iteration-count: infinite;
-}
-
-@keyframes dash {
-  to {
-    stroke: #000;
-    fill: #000;
-  }
 }
 
 // Full page "let's do it"
