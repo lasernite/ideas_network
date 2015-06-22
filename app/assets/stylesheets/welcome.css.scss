@@ -351,16 +351,20 @@ body {
     width: 100vw;
 }
 
+.world_map_div {
+	margin-left: 26vw;
+	height: 68vh;
+	overflow: hidden;
+}
+
 .world_map {
-	width: 100%;
-	height: 100%;
 	stroke-dasharray: 2200;
 	stroke-dashoffset: 2200;
-	animation: mapdraw 8s linear forwards, noborders 5s 9s linear forwards;
-	-webkit-animation: mapdraw 8s linear forwards, noborders 5s 9s linear forwards;
-	-moz-animation: mapdraw 8s linear forwards, noborders 5s 9s linear forwards;
-	-ms-animation: mapdraw 8s linear forwards, noborders 5s 9s linear forwards;
-	-o-animation: mapdraw 8s linear forwards, noborders 5s 9s linear forwards;
+	animation: mapdraw 8s linear forwards, noborders 5s linear 9s forwards;
+	-webkit-animation: mapdraw 8s linear forwards, noborders 5s linear 9s forwards;
+	-moz-animation: mapdraw 8s linear forwards, noborders 5s linear 9s forwards;
+	-ms-animation: mapdraw 8s linear forwards, noborders 5s linear 9s forwards;
+	-o-animation: mapdraw 8s linear forwards, noborders 5s linear 9s forwards;
 	fill: transparent;
 }
 
