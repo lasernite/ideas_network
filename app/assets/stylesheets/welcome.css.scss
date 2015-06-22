@@ -358,6 +358,9 @@ body {
 	stroke-dashoffset: 2200;
 	animation: mapdraw 8s linear forwards, noborders 5s 9s linear forwards;
 	-webkit-animation: mapdraw 8s linear forwards, noborders 5s 9s linear forwards;
+	-moz-animation: mapdraw 8s linear forwards, noborders 5s 9s linear forwards;
+	-ms-animation: mapdraw 8s linear forwards, noborders 5s 9s linear forwards;
+	-o-animation: mapdraw 8s linear forwards, noborders 5s 9s linear forwards;
 	fill: transparent;
 }
 
@@ -373,9 +376,51 @@ body {
 	}
 }
 
+@-moz-keyframes mapdraw {
+	to {
+		stroke-dashoffset: 4400;
+	}
+}
+
+@-ms-keyframes mapdraw {
+	to {
+		stroke-dashoffset: 4400;
+	}
+}
+
+@-o-keyframes mapdraw {
+	to {
+		stroke-dashoffset: 4400;
+	}
+}
+
 @keyframes noborders {
 	to {
-		fill: white;
+		fill: #fff;
+	}
+}
+
+@-webkit-keyframes noborders {
+	to {
+		fill: #fff;
+	}
+}
+
+@-moz-keyframes noborders {
+	to {
+		fill: #fff;
+	}
+}
+
+@-ms-keyframes noborders {
+	to {
+		fill: #fff;
+	}
+}
+
+@-o-keyframes noborders {
+	to {
+		fill: #fff;
 	}
 }
 
