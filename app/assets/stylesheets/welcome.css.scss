@@ -33,7 +33,7 @@ body {
 }
 
 .nav_box {
-	margin-top: 1vh;
+	margin-top: 0.9vh;
 }
 
 .nav_what, .nav_who, .nav_lets  {
@@ -47,17 +47,17 @@ body {
 
 
 .nav_what:hover {
-	text-decoration: underline;
+	border-bottom: 2px solid currentColor;
 	// text-shadow: 1px 1px 0px rgb(4, 4, 248);
 }
 
 .nav_who:hover {
-	text-decoration: underline;
+	border-bottom: 2px solid currentColor;
 	// text-shadow: 1px 1px 0px rgb(248, 4, 4);
 }
 
 .nav_lets:hover {
-	text-decoration: underline;
+	border-bottom: 2px solid currentColor;
 	// text-shadow: 1px 1px 0px rgb(4, 248, 4);
 }
 
