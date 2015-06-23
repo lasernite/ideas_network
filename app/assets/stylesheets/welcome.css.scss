@@ -44,13 +44,23 @@ body {
 	margin-left: 16.6vw;
 }
 
-// .nav_what:hover, .nav_who:hover, .nav_lets:hover {
-//	color: #0505FF;
-// }
 
-.nav_what:active, .nav_who:hover, .nav_lets:hover {
-	color: #0505FF;
+
+.nav_what:hover {
+	text-decoration: underline;
+	// text-shadow: 1px 1px 0px rgb(4, 4, 248);
 }
+
+.nav_who:hover {
+	text-decoration: underline;
+	// text-shadow: 1px 1px 0px rgb(248, 4, 4);
+}
+
+.nav_lets:hover {
+	text-decoration: underline;
+	// text-shadow: 1px 1px 0px rgb(4, 248, 4);
+}
+
 // Full page network background with animation built into the SVG
 
 .network_background {   
@@ -351,9 +361,26 @@ body {
     width: 100vw;
 }
 
+.talent {
+	text-align: center;
+	padding: 2vh 0.7vh 3vh 0.7vh;
+	font-family: Ubuntu;
+	color: #fff;
+	font-size: 3vmin;
+}
+
+.technology {
+	text-align: center; 
+	padding: 3vh 0.7vh 1vh 0.7vh;
+	font-family: Ubuntu;
+	color: #fff;
+	font-size: 3vmin;
+}
+
+
 .world_map_div {
-	margin-left: 26vw;
-	height: 68vh;
+	margin-left: 21vw;
+	width: 60%;
 	overflow: hidden;
 }
 
