@@ -8,9 +8,10 @@ gem 'rails', '4.1.7'
 # gem 'pg'
 gem 'sqlite3'
 # env information for mailer, pass/username
-group :development, :test do
-gem 'foreman'
-end
+# group :development, :test do
+# gem 'foreman'
+# end
+# Installed foreman onto OSX with package
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
