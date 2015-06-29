@@ -35,6 +35,12 @@ gem 'wow-rails'
 # Animate CSS (neccesary for wow.js)
 gem "animate-rails"
 
+# Mail 
+gem 'mail_form'
+
+#Rails form DSL/wrapper
+gem 'simple_form'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

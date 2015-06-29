@@ -2,11 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.next {
-    margin-top: 2000px;
-    position: absolute;
-}
-
 body {
 	padding: 0;
 	margin: 0;
@@ -464,6 +459,11 @@ body {
 	background-color: rgb(248,4,4);
 	height: 95vh;
 	width: 100vw;
+}
+
+// hide hidden nickname contact form field
+.hidden { 
+	display: none; 
 }
 
 
