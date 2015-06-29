@@ -4,7 +4,8 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.7'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+# Changed to postgres for heroku
+gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -38,8 +39,11 @@ gem "animate-rails"
 # Mail 
 gem 'mail_form'
 
-#Rails form DSL/wrapper
+# Rails form DSL/wrapper
 gem 'simple_form'
+
+# Devise for mail authentication
+gem 'devise'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
