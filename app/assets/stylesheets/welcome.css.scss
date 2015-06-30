@@ -66,7 +66,6 @@ body {
     background-size: cover;
     height: 100vh;
     width: 100vw;
-    position: absolute;
 }
 
 // Ideas Fade In
@@ -280,12 +279,12 @@ body {
 // Full page "what we do" 2nd section
 
 .what_anchor {
-	margin-top: 95vh;
+	margin-top: -5vh;
+	position: absolute;
 }
 
 .what_we_do {   
     background-color: rgb(4,4,248);
-    margin-top: 100vh;
     height: 95vh;
     width: 100vw;
     overflow: hidden;

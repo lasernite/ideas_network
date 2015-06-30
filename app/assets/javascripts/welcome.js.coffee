@@ -5,7 +5,7 @@
 # Intialize skrollr
 window.onload = ->
   s = skrollr.init()
-  (new WOW).init()
+  (new WOW).init() 
   return
 
 # Scroll smoothly to anchors
