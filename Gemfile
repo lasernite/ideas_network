@@ -5,8 +5,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.7'
 # Use sqlite3 as the database for Active Record
 # Changed to postgres for heroku
-# gem 'pg'
-gem 'sqlite3'
+gem 'pg'
+#gem 'sqlite3'
 # env information for mailer, pass/username
 # group :development, :test do
 # gem 'foreman'
@@ -62,4 +62,7 @@ gem 'devise'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# Heroku production
+gem 'rails_12factor', group: :production
 
