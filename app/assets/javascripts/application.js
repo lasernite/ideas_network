@@ -14,8 +14,6 @@
 //= require skrollr.min
 //= require skrollr.menu
 //= require skrollr.ie
-//= require rails.validations
-//= require rails.validations.simple_form
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
