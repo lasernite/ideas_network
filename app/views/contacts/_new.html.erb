@@ -2,15 +2,19 @@
   <div class="contact_form_title">Let's do it!</div>
   <div id="form"></div>
   <%= simple_form_for @contact, :validate => true, :html => {:class => 'form-horizontal' }, :url => { :action => "create" , :anchor => "form" } do |f| %>
-    <%= f.input :name, :required => true %>
-    <%= f.input :email, :required => true %>
-    <%= f.input :message, :as => :text, :required => true %>
+
+    <%= f.input :name, :required => true, :input_html => {:class => "form_name"}, :label_html => {:class => "form_name_label"} %>
+
+    <%= f.input :email, :required => true, :input_html => {:class => "form_email"}, :label_html => {:class => "form_email_label"} %>
+
+    <%= f.input :message, :as => :text, :required => true, :input_html => {:class => "form_message"}, :label_html => {:class => "form_message_label"} %>
+
     <div class= "hidden">
       <%= f.input :nickname, :hint => 'Leave this field blank!' %>
     </div>
+
     <div>
-      </br>
-      <%= f.button :submit, 'Send message', :class=> "btn btn-primary" %>
+      <%= f.button :submit, 'Send message', :class=> "btn btn-primary send_message" %>
     </div>
   <% end %>
 </div>

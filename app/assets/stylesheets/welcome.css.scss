@@ -293,7 +293,7 @@ body {
 .website_idea {
 	color: #fff;
 	font-family: Montserrat;
-	font-size: 7vh;
+	font-size: 7vmin;
 	text-align: center;
 	padding-top: 10vh;
 }
@@ -301,7 +301,7 @@ body {
 .make_happen {
 	color: #fff;
 	font-family: Montserrat;
-	font-size: 7vh;
+	font-size: 7vmin;
 	text-align: center;
 	margin-top: 5vh;
 }
@@ -309,7 +309,7 @@ body {
 .blissfully {
 	color: #fff;
 	font-family: Montserrat;
-	font-size: 7vh;
+	font-size: 7vmin;
 	text-align: center;
 	margin-top: 5vh;
 }
@@ -324,7 +324,7 @@ body {
 .get_started {
 	color: #fff;
 	font-family: Montserrat;
-	font-size: 7vh;
+	font-size: 7vmin;
 	text-align: center;
 	border: 0.5vmin solid;
 	border-color: #fff;
@@ -461,13 +461,75 @@ body {
 }
 
 .contact_form {
-	padding-top: 10vmin;
+	padding-top: 6vmin;
 	color: #fff;
 	font-family: Montserrat;
 }
 
 .contact_form_title {
+	font-size: 7vmin;
+	margin-bottom: 4vh;
+}
 
+.form_name {
+	width: 500px;
+	height: 38px;
+	font-size: 28px;
+	font-family: Montserrat;
+	margin-bottom: 2vh;
+	padding-left: 10px;
+	margin-right: 118px;
+}
+
+.form_name_label {
+	font-size: 28px;
+	margin-right: 12px;
+}
+
+.form_email {
+	width: 500px;
+	height: 38px;
+	font-size: 28px;
+	font-family: Montserrat;
+	margin-bottom: 2vh;
+	padding-left: 10px;
+	margin-right: 118px;
+}
+
+.form_email_label {
+	font-size: 28px;
+	margin-right: 19px;
+}
+
+.form_message {
+	width: 504px;
+	height: 27vh;
+	font-family: Ubuntu;
+	font-size: 18px;
+	margin-bottom: 2vh;
+	padding-left: 7px;
+	padding-top: 7px;
+	margin-right: 166px;
+}
+
+.form_message_label {
+	font-size: 28px;
+	margin-right: 20px;
+	line-height: 38px;
+	vertical-align: top;
+}
+
+.form_message_label abbr {
+	vertical-align: top;
+}
+
+.form_name, .form_email, .form_message {
+	border: 2px solid transparent;
+}
+
+.form_name:focus, .form_email:focus, .form_message:focus {
+	outline: none;
+	border: 2px solid #000;
 }
 
 // hide hidden nickname contact form field
@@ -475,6 +537,25 @@ body {
 	display: none; 
 }
 
+.send_message {
+	color: #fff;
+	font-family: Montserrat;
+	font-size: 7vmin;
+	text-align: center;
+	border: 0.5vmin solid;
+	border-color: #fff;
+	outline: none;
+	background-color: transparent;
+	border-radius: 5px;
+	font-size: 5vmin;
+	font-family: Montserrat;
+	padding: 0.7vh 0.7vw 0.7vh 0.7vw;
+}
+
+.send_message:hover {
+	background-color: #fff;
+	color: rgb(248,4,4);
+}
 
 
 // Mobile Optimization
