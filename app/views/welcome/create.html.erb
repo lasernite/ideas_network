@@ -1,3 +1,4 @@
+<!--
 <div>
   <% flash.each do |key, value| %>
     <div>
@@ -5,4 +6,14 @@
         <%= value %>
     </div>
   <% end %>
+</div>
+-->
+<div class="message_success">
+
+	<div class="message_thanks">Thanks for your message, <%= @contact.name %>.</div>
+
+	<div class="message_asap">We'll get back to you at <%= @contact.email %>, asap!</div>
+
+	<div class="message_create">We look forward to creating something incredible :) </div>
+
 </div>

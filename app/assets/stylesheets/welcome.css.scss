@@ -558,6 +558,22 @@ body {
 }
 
 
+// Success Message Page
+
+.message_success {
+  background-color: rgb(4, 4, 248);
+  height: 100vh;
+}
+
+.message_thanks, .message_asap, .message_create {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 7vmin;
+  padding-top: 7vmin;
+}
+
+
 // Mobile Optimization
 
 @media screen and (max-width: 1023px) {
