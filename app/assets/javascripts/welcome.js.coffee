@@ -21,7 +21,6 @@ $ ->
   return
 
 
-
 # Mobile Site
 $(document).ready ->
   if $( window ).width() < 1024

@@ -1,7 +1,7 @@
-<div align="center">
-  <h3>Let's do it!</h3>
-
-  <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
+<div align="center" class="contact_form">
+  <div class="contact_form_title">Let's do it!</div>
+  <div id="form"></div>
+  <%= simple_form_for @contact, :validate => true, :html => {:class => 'form-horizontal' }, :url => { :action => "create" , :anchor => "form" } do |f| %>
     <%= f.input :name, :required => true %>
     <%= f.input :email, :required => true %>
     <%= f.input :message, :as => :text, :required => true %>

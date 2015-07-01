@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'welcome#index'
 
+  resources "welcome"
+
   # Contact form
   match '/contacts',  to: 'contacts#new',  via: 'get'
   resources "contacts",  only: [:new, :create]
