@@ -274,6 +274,15 @@ body {
 	color: #fff;
 }
 
+// Chevron down link
+
+.chevron_down {
+    width: 100px;
+    margin-left: calc(50% - 50px);
+    position: absolute;
+    bottom: 0;
+}
+
 
 
 // Full page "what we do" 2nd section
@@ -563,6 +572,8 @@ body {
 .message_success {
   background-color: rgb(4, 4, 248);
   height: 100vh;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .message_thanks, .message_asap, .message_create {
