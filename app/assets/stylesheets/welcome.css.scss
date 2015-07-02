@@ -281,6 +281,26 @@ body {
     margin-left: calc(50% - 50px);
     position: absolute;
     bottom: 0;
+    overflow: hidden;
+}
+
+.chevron_svg {
+	fill: #fff;
+	-webkit-filter: drop-shadow( -2px -2px 0px #000 ) drop-shadow( 2px 2px 0px #000 ) drop-shadow( 2px -2px 0px #000 ) drop-shadow( -2px 2px 0px #000 );
+    filter: drop-shadow( -2px -2px 0px #000 ) drop-shadow( 2px 2px 0px #000 ) drop-shadow( 2px -2px 0px #000 ) drop-shadow( -2px 2px 0px #000 ); /* Same syntax as box-shadow */
+
+    opacity: 0;
+    animation: letsfadein 0.5s 10s linear forwards, bounce 1.5s 10s;
+	-webkit-animation: letsfadein 0.5s 10s linear forwards, bounce 1.5s 10s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: letsfadein 0.5s 10s linear forwards, bounce 1.5s 10s; /* Firefox < 16 */
+    -ms-animation: letsfadein 0.5s 10s linear forwards, bounce 1.5s 10s; /* Internet Explorer */
+    -o-animation: letsfadein 0.5s 10s linear forwards, bounce 1.5s 10s; /* Opera < 12.1 */
+}
+
+.chevron_svg:hover {
+	fill: #000;
+	-webkit-filter: drop-shadow( -2px -2px 0px #fff ) drop-shadow( 2px 2px 0px #fff ) drop-shadow( 2px -2px 0px #fff ) drop-shadow( -2px 2px 0px #fff );
+    filter: drop-shadow( -2px -2px 0px #fff ) drop-shadow( 2px 2px 0px #fff ) drop-shadow( 2px -2px 0px #fff ) drop-shadow( -2px 2px 0px #fff ); /* Same syntax as box-shadow */
 }
 
 
