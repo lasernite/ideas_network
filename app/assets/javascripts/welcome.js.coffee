@@ -2,9 +2,11 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
-# Intialize skrollr
+# Intialize skrollr and wow.js
 window.onload = ->
-  s = skrollr.init()
+  s = skrollr.init(forceHeight: false)
+  if s.isMobile()
+    s.destroy()
   (new WOW).init() 
   return
 

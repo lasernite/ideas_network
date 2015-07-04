@@ -5,6 +5,7 @@
 body {
 	padding: 0;
 	margin: 0;
+	max-height: 400vh;
 }
 
 // Top navigation bar
@@ -14,10 +15,40 @@ body {
 	background-color: #fff;
 	box-shadow: 0vh 0.2vh 0.5vh #000;
 	position: fixed;
-	margin-top: -5.5vh;
 	height: 5vh;
 	width: 100%;
+	opacity: 0;
 }
+
+.top_nav_drop {
+	animation: nav_drop 1s linear 7s forwards;
+	-webkit-animation: nav_drop 1s linear 7s forwards;
+	-moz-animation: nav_drop 1s linear 7s forwards;
+	-ms-animation: nav_drop 1s linear 7s forwards;
+	-o-animation: nav_drop 1s linear 7s forwards;
+}
+
+@keyframes nav_drop {
+	from { transform: translateY(-5.5vh); opacity: 0; }
+    to   { transform: translateY(0vh); opacity: 100; }
+}
+@-webkit-keyframes nav_drop {
+	from { -webkit-transform: translateY(-5.5vh); opacity: 0; }
+    to   { -webkit-transform: translateY(0vh); opacity: 100; }
+}
+@-moz-keyframes nav_drop {
+	from { -moz-transform: translateY(-5.5vh); opacity: 0; }
+    to   { -moz-transform: translateY(0vh); opacity: 100; }
+}
+@-ms-keyframes nav_drop {
+	from { -ms-transform: translateY(-5.5vh); opacity: 0; }
+    to   { -ms-transform: translateY(0vh); opacity: 100; }
+}
+@-o-keyframes nav_drop {
+	from { -o-transform: translateY(-5.5vh); opacity: 0; }
+    to   { -o-transform: translateY(0vh); opacity: 100; }
+}
+
 
 .logo {
 	height: 4.2vh;
