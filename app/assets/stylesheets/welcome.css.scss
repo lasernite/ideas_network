@@ -416,23 +416,35 @@ body {
 }
 
 .talent {
-	text-align: center;
-	padding: 2vh 0.7vh 3vh 0.7vh;
 	font-family: Ubuntu;
 	color: #fff;
-	font-size: 3vmin;
+	font-size: 18px;
+	width: 600px;
+	position: absolute;
+	margin-top: 28px;
+	left: 28px;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 18px;
+	border-radius: 12px;
 }
 
 .technology {
-	text-align: center; 
-	padding: 3vh 0.7vh 1vh 0.7vh;
 	font-family: Ubuntu;
 	color: #fff;
-	font-size: 3vmin;
+	font-size: 18px;
+	width: 600px;
+	position: absolute;
+	right: 28px;
+	margin-top: 80vh;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 18px;
+	border-radius: 12px;
 }
 
 
 .world_map_div {
+	position: absolute;
+	padding-top: 12vh;
 	margin-left: 21vw;
 	width: 60%;
 	overflow: hidden;
